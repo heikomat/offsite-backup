@@ -10,7 +10,7 @@ you could use the `rclone config` command. That starts an interactive configurat
 
 Or you can pick the `rclone.conf` from this repository and adjust it yourself. The result will be the same.
 
-Replace the following things in the `rclone.conf`:
+Replace the following things in the [`rclone.conf`](./root/.config/rclone/rclone.conf):
 - [**nextcloud-url**](https://rclone.org/webdav/#webdav-url)  
   Path to your nextcloud instance
 - [**user**](https://rclone.org/webdav/#webdav-user)  
