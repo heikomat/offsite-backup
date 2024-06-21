@@ -47,3 +47,10 @@ See the [crontab](./crontab)-file for an example usage. You can of course also u
 
 **logs**  
 logs will end up in `/var/log/backup/`. There will be two files. One is the log-output from rclone, the other one is the stdout from the backup-script.
+
+**mount backup**  
+See https://rclone.org/commands/rclone_mount/
+```
+sudo mkdir /mnt/offsite-backup
+sudo rclone mount backup:/ /mnt/offsite-backup
+```
