@@ -1,0 +1,1 @@
+0 7 * * 0 /apps/server-scripts/run-in-screen.sh /apps/server-scripts/backup.sh /var/log/backup/backup.screenlog >/dev/null 2>&1
